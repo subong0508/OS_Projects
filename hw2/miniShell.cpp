@@ -19,13 +19,13 @@ int main(void) {
             continue;
         }
         // if user enters "exit", then return main()
-        if(strncmp(command.argv[0], "exit", 4) == 0) { 
+        if(strcmp(command.argv[0], "exit") == 0) { 
             break;
         }
         // background command
         bool bg = is_bg(&command);
         // if user enters 'cd', you have to handle it different way
-        if(strncmp(msg, "cd", 2)==0) {
+        if(strcmp(command.argv[0], "cd")==0) {
             cd_handler(&command, bg);
             continue;
         }
