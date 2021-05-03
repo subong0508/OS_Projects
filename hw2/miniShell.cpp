@@ -251,8 +251,7 @@ bool is_bg(Command *command) {
     return false;
 }
 
-int is_redirect(Command *command)
-{
+int is_redirect(Command *command) {
     /**
      * Function input:
      *  - Command *command: command which will be used to determine
