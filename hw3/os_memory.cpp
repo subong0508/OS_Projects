@@ -183,7 +183,7 @@ void OS::memRelease(int pageID) {
     PTE *pte = nowProcess->findPage(pageID);
     nowProcess->setNowPage(pte);
     // release virtual memory
-    nowProcess->memRelease(pageID);
+    nowProcess->vmemRelease(pageID);
     if(pte->validBit == 1) {
         pte->validBit = 0;
         TreeNode *node= pmemSearch(root, pte->allocID);

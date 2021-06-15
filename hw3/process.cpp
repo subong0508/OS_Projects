@@ -157,7 +157,7 @@ PTE *Process::findPage(int pageID) {
     return pageTable.find(pageID)->second;
 }
 
-void Process::memRelease(int pageID) {
+void Process::vmemRelease(int pageID) {
     /**
      * Release virtual memory and erase from page table
      */

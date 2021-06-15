@@ -90,7 +90,7 @@ class Process {
         // find page by page id
         PTE *findPage(int pageID);
         // release page by page id
-        void memRelease(int pageID);
+        void vmemRelease(int pageID);
         // get all allocated pages
         vector<int> getPages();
         // refresh reference byte
