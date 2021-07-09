@@ -1,7 +1,7 @@
 # OS_Projects
 2021-1 Operating System Homeworks
 
-## Homework2(자세한 내용은 pdf 참조)
+## Homework2
 ### 1. 리눅스 MiniShell 구현
 ### 2. Merge sort 구현: 기본 구현, 멀티 프로세스 구현, 멀티 스레드 구현 비교
 
@@ -18,7 +18,7 @@ make
 make clean
 ```
 
-## Homework3(자세한 내용은 pdf 참조)
+## Homework3
 ### Multilevel queue 스케줄러, 가상 메모리(페이징), 버디 시스템이 결합된 시뮬레이터 구현
 
 ```cd hw3
